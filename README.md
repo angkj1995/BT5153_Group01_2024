@@ -13,7 +13,7 @@ This project incorporates several key features to effectively detect and analyze
 - Explainable AI: Provides model prediction explanations to increase trust and user comprehension, using techniques like Integrated Gradients and feature importance analysis.
 
 ## Dataset List
-The data is from [LIAR](https://aclanthology.org/P17-2067/) available in 3 files through an 80-10-10 split. 
+The data is from [LIAR](https://aclanthology.org/P17-2067/) available in 3 files through an 80-10-10 split in the `data01` directory
 - test
 - train
 - valid
