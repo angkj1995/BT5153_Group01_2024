@@ -12,7 +12,7 @@ This project incorporates several key features to effectively detect and analyze
 - Robust Preprocessing: Implements extensive text preprocessing to ensure data consistency and relevance for model training.
 - Detailed Evaluation Metrics: Measures model performance using Precision, Recall, F1-Score, and Accuracy to assess effectiveness across different news categories.
 - Explainable AI: Provides model prediction explanations to increase trust and user comprehension, using techniques like Integrated Gradients and feature importance analysis.
-- 
+
 ## Dataset List
 The data is available in 3 files through an 80-10-10 split. 
 - test
