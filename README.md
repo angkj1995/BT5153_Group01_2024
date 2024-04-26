@@ -7,7 +7,6 @@ This project applies machine learning techniques to develop a high-accuracy clas
 This project incorporates several key features to effectively detect and analyze fake news:
 - Diverse NLP Techniques: Employs traditional and advanced NLP methods, including Bag-of-Words, TF-IDF, word embeddings, and sentence embeddings.
 - Variety of ML Models: Uses multiple machine learning models such as LASSO, CNNs with GloVe embeddings, DistilBERT, and Sentence Transformers.
-- Interpretable ML: Features interpretable techniques to enhance transparency in the classification process, allowing for better understanding of model decisions.
 - Comprehensive Dataset: Leverages the LIAR dataset, a broad collection of labeled statements from POLITIFACT.COM, facilitating a detailed analysis of fake news.
 - Robust Preprocessing: Implements extensive text preprocessing to ensure data consistency and relevance for model training.
 - Detailed Evaluation Metrics: Measures model performance using Precision, Recall, F1-Score, and Accuracy to assess effectiveness across different news categories.
