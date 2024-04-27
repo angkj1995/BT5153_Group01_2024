@@ -19,6 +19,7 @@ The data is from [LIAR](https://aclanthology.org/P17-2067/) available in 3 files
 - test (1,283 rows)
 
 ## Code Directory
+4 code files are available in the `code01` directory
 - **LIAR_CV_TFIDF_v3.ipynb**: Provides visualisations and insights into the LIAR dataset's structure and content. Subsequently implements CountVectorizer (CV) and Term Frequency-Inverse Document Frequency (TF-IDF) vectorization techniques for fake news classification using a Logistic Regression (LR) model. Concludes with intrinsic feature importance of word tokens
 - **LIAR_GloVe_LR_CNN.ipynb**: Employs GloVe embeddings for word representation, Logistic Regression (LR) for classification, and a Convolutional Neural Network (CNN) model for capturing local contextual features within the data
 - **LIAR_DistilBERT.ipynb**: Fine-tunes a DistilBERT transformer for fake news classification, followed by Integrated Gradients for transformer explainability on news content itself
