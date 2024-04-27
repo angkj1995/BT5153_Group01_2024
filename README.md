@@ -14,9 +14,9 @@ This project incorporates several key features to effectively detect and analyze
 
 ## Dataset List
 The data is from [LIAR](https://aclanthology.org/P17-2067/) available in 3 files through an 80-10-10 split in the `data01` directory
-- test
-- train
-- valid
+- test (1,283 rows)
+- train (10,269 rows)
+- valid (1,284 rows)
 
 ## Code Directory
 - LIAR_EDA.ipynb: The Exploratory Data Analysis (EDA) notebook provides visualizations and insights into the LIAR dataset's structure and content.
