@@ -14,13 +14,12 @@ This project incorporates several key features to effectively detect and analyze
 
 ## Dataset List
 The data is from [LIAR](https://aclanthology.org/P17-2067/) available in 3 files through an 80-10-10 split in the `data01` directory
-- test (1,283 rows)
 - train (10,269 rows)
 - valid (1,284 rows)
+- test (1,283 rows)
 
 ## Code Directory
-- LIAR_EDA.ipynb: The Exploratory Data Analysis (EDA) notebook provides visualizations and insights into the LIAR dataset's structure and content.
-- LIAR_CV_TFIDF_v3.ipynb: Implements CountVectorizer (CV) and Term Frequency-Inverse Document Frequency (TF-IDF) vectorization techniques applied to the LIAR dataset for fake news classification
-- LIAR_GloVe_LR_CNN.ipynb: Employs GloVe embeddings for word representation, Logistic Regression (LR) for classification, and a Convolutional Neural Network (CNN) model for capturing local contextual features within the data
-- LIAR_DistilBERT.ipynb: Utilizes the DistilBERT transformer model, as an alternative to BERT
-- LIAR_sbert.ipynb: Uses Sentence-BERT (sBERT), a modification of the pre-trained BERT model, to produce sentence embeddings that capture semantic similarities for fake news detection tasks
+- **LIAR_CV_TFIDF_v3.ipynb**: Provides visualisations and insights into the LIAR dataset's structure and content. Subsequently implements CountVectorizer (CV) and Term Frequency-Inverse Document Frequency (TF-IDF) vectorization techniques for fake news classification using a Logistic Regression (LR) model. Concludes with intrinsic feature importance of word tokens
+- **LIAR_GloVe_LR_CNN.ipynb**: Employs GloVe embeddings for word representation, Logistic Regression (LR) for classification, and a Convolutional Neural Network (CNN) model for capturing local contextual features within the data
+- **LIAR_DistilBERT.ipynb**: Fine-tunes a DistilBERT transformer for fake news classification, followed by Integrated Gradients for transformer explainability on news content itself
+- **LIAR_sbert.ipynb**: Uses a pre-trained sentence transformer, a modification version of BERT, to produce sentence embeddings that capture semantic similarities at the sentence level. Classification done with Logistic Regression (LR)
