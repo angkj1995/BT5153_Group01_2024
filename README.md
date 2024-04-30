@@ -24,3 +24,8 @@ The data is from [LIAR](https://aclanthology.org/P17-2067/) available in 3 files
 - **LIAR_GloVe_LR_CNN.ipynb**: Employs GloVe embeddings for word representation, Logistic Regression (LR) for classification, and a Convolutional Neural Network (CNN) model for capturing local contextual features within the data
 - **LIAR_DistilBERT.ipynb**: Fine-tunes a DistilBERT transformer for fake news classification, followed by Integrated Gradients for transformer explainability on news content itself
 - **LIAR_sbert.ipynb**: Uses a pre-trained sentence transformer, a modification version of BERT, to produce sentence embeddings that capture semantic similarities at the sentence level. Classification done with Logistic Regression (LR)
+
+## Report and Presentation
+In the Report and Presentation directory, there are 2 files
+- **report01.pdf**: Full report describing the problem, basic facts of dataset, data pre-processing, machine learning modelling techniques, insights gathered and references cited
+- **presentation01.pdf**: Presentation slides for an abstract of the report
